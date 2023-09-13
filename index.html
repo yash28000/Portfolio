@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script>
+  $(document).ready(function() {
+    $('a[href^="#"]').on('click', function(event) {
+      event.preventDefault();
+
+      var target = $(this.getAttribute('href'));
+
+      if (target.length) {
+        $('html, body').stop().animate({
+          scrollTop: target.offset().top
+        }, 1000);
+      }
+    });
+  });
+</script>
+<body>
+    <div class="container">
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#certifications">Certifications</a></li>
+            <li><a href="#Skills">Skills</a></li>
+            <li><a href="#Projects">Projects</a></li>
+        </ul>
+        <div style="display: flex; flex-direction: column; align-items: center;">
+            <span style="font-size: 20px; font-weight: bold">Yash Singh</span>
+            <a href="yashsingh.2803@gmail.com">Gmail</a>
+        </div>
+    </div>
+
+    <section id="about" class="section_heading">
+        <h1>About me</h1>
+        I am an enthusiastic Computer Science Engineering student studying my Bachelor's degree at Chandigarh University with a focus in DevOps. I was born in Faridabad and was reared in Bangalore, India. I enjoy learning about the newest developments in technology, and I've mastered a variety of strong tools and programming languages as a result of my explorations.I've developed my programming skills in languages like C++, JAVA, HTML, and CSS to meet a variety of difficulties in the computer world. Highly motivated beginner Engineering student with a strong desire to gain practical experience in the field ofsoftware development,operations and analysis.
+        I am looking foward for my first work experience.
+        <a href="#">Go back</a>
+        <div class="line"></div>
+    </section>
+
+    <section id="certifications" class="section_heading">
+        <h1>Certifications</h1>
+        <h4>AWS Academy Graduate - AWS AcademyCloud Foundations</h4>
+        From this certification I have learnt how does the AWS cloud works. I have learnt about various tools in AWS like Amazon EC2, S3 BUCKET, RDS, EBS etc. I am now aiming to crack the certified AWS Cloud Practitioner Examination 
+        <a href="https://drive.google.com/file/d/1zLIuo4jj8MDxoimAKCr6U4QlE_vxm6lI/view?usp=sharing">link</a>
+        <h4>Unity Essentials Pathway</h4>
+        Through this certification I have learnt about how does the unity software works and how can we build games and various other AR/VR software. I have also learnt the scripting through C#. how to handle Assets have also been learnt.
+        <a href="https://drive.google.com/file/d/11ZM5Vv3hVpZaKn4ScawrF0MiOLrrCZJy/view?usp=sharing">link</a> 
+        <h4>Goldmann Sachs Software Engineering Job Simulation</h4>
+        Skills I have learnt are Technical Skills Development, Teamwork and Collaboration, Time Management, Decision-Making and Problem-Solving, Communication and Presentation Skills, Adaptability and Resilience      
+        <a href="https://drive.google.com/file/d/17CCRz2VFRB0gCbzobqexkG_j1hBVMxeq/view?usp=sharing">link</a> 
+        <h4>An Introduction to Programming Through C++</h4>
+        I have aced mastery on C++ using this course which is offered by the proficient University IIT Bombay. I have learnt C++ Syntax and Language Features, Problem-Solving Skills, Debugging and Troubleshooting, Algorithmic Thinking, Software Development Practices, Introduction to Object-Oriented Programming (OOP), Project Work 
+        <a href="https://drive.google.com/file/d/1c-pvfxNYsi5FSrW-kWFmQM4LnXOflafS/view?usp=sharing">link</a> 
+        <div class="line"></div>
+    </section>
+
+    <section id="Skills" class="section_heading">
+        <h1> Skills</h1>
+        <div class="skill">
+            <h4>C/C++</h4> <div class="progress_bar"><div class="progress1"></div></div>
+        </div>
+        <div>
+        Proficiency in C/C++,
+        Strong problem-solving abilities,
+        Knowledge of data structures and algorithms,
+        Understanding of memory management,
+        Commitment to continuous learning and staying updated with C/C++ advancements.
+    </div>
+    <div class="skill">
+        <h4>Java</h4> <div class="progress_bar"><div class="progress2"></div></div>
+    </div>
+        Proficiency in Java programming language,
+        Strong understanding of Object-Oriented Programming (OOP) concepts,
+        Experience with Java frameworks and libraries (e.g., Spring, Hibernate),
+        Familiarity with Java development tools and IDEs (e.g., Eclipse, IntelliJ IDEA),
+        Knowledge of Java web development (e.g., Servlets, JSP, Spring MVC).
+        <div class="skill">
+            <h4>HTML & CSS</h4> <div class="progress_bar"><div class="progress3"></div></div>
+        </div>
+        Proficiency in HTML,
+        Knowledge of HTML5,
+        CSS styling and layout,
+        Semantic markup,
+        Forms and input validation,
+        Multimedia integration (images, audio, video),
+        Web performance optimization,
+        Collaboration and teamwork.
+        <div class="skill">
+            <h4>AR/VR</h4> <div class="progress_bar"><div class="progress4"></div></div>
+        </div>
+        Proficiency in AR/VR technologies,
+        Experience with AR/VR development platforms (e.g., Unity, Unreal Engine),
+        Knowledge of AR/VR hardware and devices,
+        3D modeling and animation for AR/VR,
+        Knowledge of AR/VR industry trends and emerging technologies,
+        Collaboration and teamwork in AR/VR development projects.
+        <div class="skill">
+            <h4>Git/Github</h4> <div class="progress_bar"><div class="progress5"></div></div>
+        </div>
+        Proficiency in Git/GitHub,
+        Experience with version control using Git,
+        Familiarity with Git commands and workflows,
+        Collaboration and teamwork using Git/GitHub,
+        Branching, merging, and resolving conflicts in Git,
+        Repository management and organization on GitHub,
+        Pull requests and code reviews on GitHub.
+        <div class="line"></div>
+    </section>
+
+    <section id="Projects" class="section_heading">
+        <h1>Projects</h1>
+        <h4>Augmented Reality: Application ofICT Tools for Innovative Pedagogy</h4>
+        The goal of this research paper is the visualization of the difficult concepts by utilizing the AR technology, which can be a means to innovative learning for the kids seeking elementary education. The paper highlights the importance of utilizing the idea of incorporating learning through AR, instead of letting the kids watch videos on screen. In the current paper, the innovative learning results have been shown picturizing a simple concept of the solar system working. Here, free 3D models of the planets are downloaded from Sketchfab, thereby converted into.glb form, imported, implemented, and developed in PlugXR software.
+        <a href="https://link.springer.com/chapter/10.1007/978-981-19-5224-1_56">link</a>
+        <h4>Online Cloud-Enabled Book Store System</h4>
+        A simple book store website can be built using React.js for the frontend and Python's Flask framework for the backend API. The website can be deployed and managed using DevOps practices. DevOps refers to a set of practices that combine software development (Dev) and IT operations (Ops) to improve collaboration and efficiency in the software development lifecycle. It involves automating processes, using version control systems, and deploying applications using tools like Docker and Kubernetes.
+        <a href="https://github.com/yash28000/Online-Cloud-enabled-Book-Store-">link</a>
+        <h4>Assignment Dendrite</h4>
+        A simple Music app build using Javascript, SCSS. I have used react.js to create interactive UI.
+        <a href="https://github.com/yash28000/Assignment-Dendrite">link</a>
+
+        <div class="line"></div>
+    </section>
+
+    <a href="#top"><div class="up">UP</div></a>
+
+</body>
+</html>
